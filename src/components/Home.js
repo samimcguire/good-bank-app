@@ -3,11 +3,14 @@ import { UserContext } from "../context";
 
 
 const Home = () => {
-    const ctx = useContext(UserContext);
     return (
-        <h1>Home<br/>
-            {JSON.stringify(ctx)}
-        </h1>
+        <Card
+            txtcolor="black"
+            heder="BadBank Landing Page"
+            title="Welcome to the bank"
+            text="You can use this bank"
+            body={<img src="badbanklogo.png" className="img-fluid" alt="responsive bank logo"/>}
+        />
     );
 }
 

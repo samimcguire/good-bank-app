@@ -8,6 +8,6 @@ const CreateAccount = () => {
             {JSON.stringify(ctx)}
         </h1>
     );
-};
+}
 
 export default CreateAccount;

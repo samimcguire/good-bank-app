@@ -8,6 +8,6 @@ const Balance = () => {
             {JSON.stringify(ctx)}
         </h1>
     );
-};
+}
 
 export default Balance;

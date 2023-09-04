@@ -8,6 +8,6 @@ const AllData = () => {
             {JSON.stringify(ctx)}
         </h1>
     );
-};
+}
 
 export default AllData;
