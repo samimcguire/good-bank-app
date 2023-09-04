@@ -5,8 +5,7 @@ import { UserContext } from "../context";
 const Home = () => {
     const ctx = useContext(UserContext);
     return (
-        <h1>
-            Home<br/>
+        <h1>Home<br/>
             {JSON.stringify(ctx)}
         </h1>
     );
