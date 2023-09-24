@@ -1,8 +1,9 @@
 import { createContext } from "react";
+import Card from 'react-bootstrap/Card';
 
 export const UserContext = createContext(null);
 
-const Card = () => {
+/* const Card = () => {
     const classes = () => {
         const bg = bg.color ? ' bg-' + bgcolor : ' ';
         const txt = txtcolor ? ' text-' + txtcolor: ' text-white';
@@ -22,4 +23,4 @@ const Card = () => {
             </div>
         </div>
     );
-}
+} */
