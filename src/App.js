@@ -15,7 +15,6 @@ import Home from './components/Home';
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to Bad Bank</h1>
       <Navbar />
       <UserContext.Provider value={{users:[{name:'Samantha', email:'samimcguire@gmail.com', password:'secret', balance:100}]}}>
         <Routes>
