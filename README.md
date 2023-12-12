@@ -1,4 +1,4 @@
-# Bad Bank Application
+# Good Bank Application
 ## Description/Motivation: 
 The reasons why this project exists, including the answers to pertinent questions such as whom does it help, why did you build it, and what business or personal problem does it solve.
 ## Installation Guidelines: 
